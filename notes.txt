@@ -1,0 +1,51 @@
+analyst-ai/
+│
+├── app/
+│   │
+│   ├── api/
+│   │   ├── routes/
+│   │   │   ├── upload.py
+│   │   │   └── health.py
+│   │   │
+│   │   └── __init__.py
+│   │
+│   ├── models/
+│   │   ├── document.py
+│   │   └── __init__.py
+│   │
+│   ├── services/
+│   │   ├── document_service.py
+│   │   └── __init__.py
+│   │
+│   ├── loaders/
+│   │   ├── base_loader.py
+│   │   ├── csv_loader.py
+│   │   ├── excel_loader.py
+│   │   ├── pdf_loader.py
+│   │   ├── loader_factory.py
+│   │   └── __init__.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── logger.py
+│   │   └── __init__.py
+│   │
+│   ├── utils/
+│   │   └── __init__.py
+│   │
+│   ├── main.py
+│   └── __init__.py
+│
+├── uploads/
+│
+├── reports/
+│
+├── tests/
+│
+├── logs/
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+├── README.md
+└── Dockerfile
